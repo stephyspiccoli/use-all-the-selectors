@@ -35,5 +35,21 @@ nav ul {
 }
 
 html body header nav ul li mark {
-  background-color: #b58900;
+  background-color: #719e07;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol li:first-child {
+  background-color: #719e07;
+}
+
+ol li:last-child {
+  background-color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
 }
