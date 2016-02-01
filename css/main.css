@@ -33,3 +33,7 @@ nav ul {
 .dfn p+strong {
   color: #fff;
 }
+
+html body header nav ul li mark {
+  background-color: #b58900;
+}
