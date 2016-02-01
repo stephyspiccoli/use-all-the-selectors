@@ -27,15 +27,15 @@ nav ul {
 }
 
 .wrapper > .dfn {
-   background-color: #b58900;
- }
+  background-color: #b58900;
+}
 
-.dfn p+strong {
+.dfn p + strong {
   color: #fff;
 }
 
 html body header nav ul li mark {
-  background-color: #719e07;
+  background-color: #719e47;
 }
 
 [rel="external"] {
@@ -52,4 +52,12 @@ ol li:last-child {
 
 .types li:nth-child(odd) {
   background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
 }
